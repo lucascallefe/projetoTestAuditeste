@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="3" time="49.923">
+<testcase classname="Auditeste CA" name="Deve validar login com sucesso" time="14.237">
+<system-out><![CDATA[Given que acesso o sistema "http://187.35.155.198:5722/Login.aspx"..........passed
+Given optp por verificar campos existentes..................................passed
+And opto por preencher email "veron.oliveira@auditeste.com.br"..............passed
+And opto por preencher senha "auditeste"....................................passed
+When opto por clicar em Entrar..............................................passed
+Then opto por verificar usuario logado "Ana Sousa"..........................passed
+]]></system-out>
+</testcase>
+<testcase classname="Auditeste CA" name="Deve validar email" time="17.617">
+<system-out><![CDATA[Given que acesso o sistema "http://187.35.155.198:5722/Login.aspx"..........passed
+Given optp por verificar campos existentes..................................passed
+And opto por preencher email "teste@hotmail.com"............................passed
+And opto por preencher senha "teste"........................................passed
+When opto por clicar em Entrar..............................................passed
+Then opto por verificar usuario logado "Ana Sousa"..........................passed
+]]></system-out>
+</testcase>
+<testcase classname="Auditeste CA" name="Deve validar senha" time="17.691">
+<system-out><![CDATA[Given que acesso o sistema "http://187.35.155.198:5722/Login.aspx"..........passed
+Given optp por verificar campos existentes..................................passed
+And opto por preencher email "veron.oliveira@auditeste.com.br"..............passed
+And opto por preencher senha "teste"........................................passed
+When opto por clicar em Entrar..............................................passed
+Then opto por verificar usuario logado "Ana Sousa"..........................passed
+]]></system-out>
+</testcase>
+</testsuite>
